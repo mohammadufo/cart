@@ -8,6 +8,10 @@
 .main {
   position: relative;
   direction: rtl;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
 }
 
 #tsparticles {
@@ -140,5 +144,23 @@
 
   span {
     color: white;
+  }
+}
+
+.text-div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  font-family: 'IranYekan' !important;
+  .text-1 {
+    color: aquamarine;
+    font-size: 16px;
+  }
+  .text-3 {
+    color: #ff0081;
+    font-size: 24px;
   }
 }

@@ -58,16 +58,25 @@ function App() {
 
         <Modal
           className="rtl"
-          title="Basic Modal"
+          title=""
           open={isModalOpen}
           onOk={handleOk}
           onCancel={handleCancel}
-          okText="حتما میام"
-          cancelText="باشه میام"
+          // okText="حتما میام"
+          // cancelText="باشه میام"
+          footer={null}
         >
-          <p>Some contents...</p>
-          <p>Some contents...</p>
-          <p>Some contents...</p>
+          <div className="text-div">
+            <h3 className="text-1">به نام آفریننده عشق</h3>
+            <span className="text-2">جشن ازدواج</span>
+            <h3 className="text-3">منصوره و فرهاد </h3>
+            <span className="text-4">جمعه ۱۷ آذر </span>
+            <span className="text-9">15:30 - 18:30</span>
+            <span className="text-5">مشهد, قاسم آباد, میدان مادر</span>
+            <span className="text-6">روبروی سینما سیمرغ,</span>
+            <span className="text-7">تالار رامان</span>
+            <span className="text-8">طبقه ۳ و ۴</span>
+          </div>
         </Modal>
       </ConfigProvider>
     </>

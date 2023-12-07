@@ -18,8 +18,8 @@
   font-style: normal;
   font-display: swap;
   font-weight: 900;
-  src: url(/assets/fonts/YekanBakh/YekanBakhFaNumHeavy.woff2) format('woff2'),
-    url(/assets/fonts/YekanBakhFaNumHeavy.woff) format('woff');
+  src: url(src/assets/fonts/YekanBakh/YekanBakhFaNumHeavy.woff2) format('woff2'),
+    url(src/assets/fonts/YekanBakhFaNumHeavy.woff) format('woff');
 }
 
 @font-face {
@@ -27,8 +27,8 @@
   font-style: normal;
   font-display: swap;
   font-weight: 700;
-  src: url(/assets/fonts/YekanBakh/YekanBakhFaNumBold.woff2) format('woff2'),
-    url(/assets/fonts/YekanBakh/YekanBakhFaNumBold.woff) format('woff');
+  src: url(src/assets/fonts/YekanBakh/YekanBakhFaNumBold.woff2) format('woff2'),
+    url(src/assets/fonts/YekanBakh/YekanBakhFaNumBold.woff) format('woff');
 }
 
 @font-face {
@@ -36,8 +36,9 @@
   font-style: normal;
   font-display: swap;
   font-weight: 500;
-  src: url(/assets/fonts/YekanBakh/YekanBakhFaNumMedium.woff2) format('woff2'),
-    url(/assets/fonts/YekanBakh/YekanBakhFaNumMedium.woff) format('woff');
+  src: url(src/assets/fonts/YekanBakh/YekanBakhFaNumMedium.woff2)
+      format('woff2'),
+    url(src/assets/fonts/YekanBakh/YekanBakhFaNumMedium.woff) format('woff');
 }
 
 @font-face {
@@ -45,8 +46,9 @@
   font-style: normal;
   font-display: swap;
   font-weight: 400;
-  src: url(/assets/fonts/YekanBakh/YekanBakhFaNumRegular.woff2) format('woff2'),
-    url(/assets/fonts/YekanBakh/YekanBakhFaNumRegular.woff) format('woff');
+  src: url(src/assets/fonts/YekanBakh/YekanBakhFaNumRegular.woff2)
+      format('woff2'),
+    url(src/assets/fonts/YekanBakh/YekanBakhFaNumRegular.woff) format('woff');
 }
 
 @font-face {
@@ -54,8 +56,8 @@
   font-style: normal;
   font-display: swap;
   font-weight: 300;
-  src: url(/assets/fonts/YekanBakh/YekanBakhFaNumLight.woff2) format('woff2'),
-    url(/assets/fonts/YekanBakh/YekanBakhFaNumLight.woff) format('woff');
+  src: url(src/assets/fonts/YekanBakh/YekanBakhFaNumLight.woff2) format('woff2'),
+    url(src/assets/fonts/YekanBakh/YekanBakhFaNumLight.woff) format('woff');
 }
 
 @font-face {
@@ -63,9 +65,9 @@
   font-style: normal;
   font-display: swap;
   font-weight: 900;
-  src: url(/assets/fonts/IranYekan/woff2/IRANYekanWebExtraBoldfanum.woff2)
+  src: url(src/assets/fonts/IranYekan/woff2/IRANYekanWebExtraBoldfanum.woff2)
       format('woff2'),
-    url(/assets/fonts/IranYekan/woff/iranyekanwebextraboldfanum.woff)
+    url(src/assets/fonts/IranYekan/woff/iranyekanwebextraboldfanum.woff)
       format('woff');
 }
 
@@ -74,9 +76,10 @@
   font-style: normal;
   font-display: swap;
   font-weight: 700;
-  src: url(/assets/fonts/IranYekan/woff2/IRANYekanWebBoldfanum.woff2)
+  src: url(src/assets/fonts/IranYekan/woff2/IRANYekanWebBoldfanum.woff2)
       format('woff2'),
-    url(/assets/fonts/IranYekan/woff/iranyekanwebboldfanum.woff) format('woff');
+    url(src/assets/fonts/IranYekan/woff/iranyekanwebboldfanum.woff)
+      format('woff');
 }
 
 @font-face {
@@ -84,9 +87,9 @@
   font-style: normal;
   font-display: swap;
   font-weight: 500;
-  src: url(/assets/fonts/IranYekan/woff2/IRANYekanWebMediumfanum.woff2)
+  src: url(src/assets/fonts/IranYekan/woff2/IRANYekanWebMediumfanum.woff2)
       format('woff2'),
-    url(/assets/fonts/IranYekan/woff/iranyekanwebmediumfanum.woff)
+    url(src/assets/fonts/IranYekan/woff/iranyekanwebmediumfanum.woff)
       format('woff');
 }
 
@@ -95,9 +98,9 @@
   font-style: normal;
   font-display: swap;
   font-weight: 400;
-  src: url(/assets/fonts/IranYekan/woff2/IRANYekanWebRegularfanum.woff2)
+  src: url(src/assets/fonts/IranYekan/woff2/IRANYekanWebRegularfanum.woff2)
       format('woff2'),
-    url(/assets/fonts/IranYekan/woff/iranyekanwebregularfanum.woff)
+    url(src/assets/fonts/IranYekan/woff/iranyekanwebregularfanum.woff)
       format('woff');
 }
 
@@ -106,9 +109,10 @@
   font-style: normal;
   font-display: swap;
   font-weight: 300;
-  src: url(/assets/fonts/IranYekan/woff2/IRANYekanWebLightfanum.woff2)
+  src: url(src/assets/fonts/IranYekan/woff2/IRANYekanWebLightfanum.woff2)
       format('woff2'),
-    url(/assets/fonts/IranYekan/woff/iranyekanweblightfanum.woff) format('woff');
+    url(src/assets/fonts/IranYekan/woff/iranyekanweblightfanum.woff)
+      format('woff');
 }
 body {
   font-family: 'YekanBakh' !important;
